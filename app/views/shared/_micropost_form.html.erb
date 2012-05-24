@@ -1,0 +1,9 @@
+<%= form_for(@micropost) do |f| %>
+
+    <div class="field">
+      <%= f.text_area :content, placeholder: "Compose new micropost..."  %>
+    </div>
+    <div class="actions">
+      <%= f.submit "Submit" %>
+    </div>
+<% end %>
